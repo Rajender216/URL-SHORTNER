@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: URL-SHORTNER
+
+  data:
+    mongodb:
+      uri: mongodb+srv://admin:admin@cluster0.gb0vo.mongodb.net/urlshortener
+
+    redis:
+      host: localhost
+      port: 6379
+
+server:
+  port: 8088
+
+logging:
+  level:
+    root: info
+
+app:
+  click-sync:
+    interval: 60000
