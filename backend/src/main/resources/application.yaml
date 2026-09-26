@@ -1,6 +1,6 @@
 spring:
   application:
-    name: URL-SHORTNER1
+    name: URL-SHORTNER
 
   data:
     mongodb:
